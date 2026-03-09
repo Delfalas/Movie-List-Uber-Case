@@ -1,0 +1,11 @@
+### Get All Movies
+
+GET http://localhost:8080/movies
+
+### Get Movies By Title
+
+GET http://localhost:8080/movies?title=Matrix
+
+### Get Movies By Prefix
+
+GET http://localhost:8080/movies/autocomplete?q=Sta
